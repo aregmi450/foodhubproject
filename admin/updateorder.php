@@ -33,7 +33,7 @@ window.print();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Update Compliant</title>
+<title>Update Order Status </title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="anuj.css" rel="stylesheet" type="text/css">
 </head>
@@ -68,7 +68,7 @@ $ret = mysqli_query($con,"SELECT * FROM ordertrackhistory WHERE orderId='$oid'")
       <td  class="fontkink"><?php echo $row['status'];?></td>
     </tr>
      <tr height="20">
-      <td  class="fontkink1"><b>Remark:</b></td>
+      <td  class="fontkink1"><b>Remarks:</b></td>
       <td  class="fontkink"><?php echo $row['remark'];?></td>
     </tr>
 
@@ -96,15 +96,15 @@ $st='Delivered';
       <td  class="fontkink"><span class="fontkink1" >
         <select name="status" class="fontkink" required="required" >
           <option value="">Select Status</option>
-                 <option value="in Process">In Process</option>
+                 <option value="In Process">In Process</option>
                   <option value="Delivered">Delivered</option>
         </select>
         </span></td>
     </tr>
 
      <tr style=''>
-      <td class="fontkink1" >Remark:</td>
-      <td class="fontkink" align="justify" ><span class="fontkink">
+      <td class="fontkink1" >Remarks:</td>
+      <td class="fontkink" text-align="justify" ><span class="fontkink">
         <textarea cols="50" rows="7" name="remark"  required="required" ></textarea>
         </span></td>
     </tr>
@@ -114,7 +114,7 @@ $st='Delivered';
     </tr>
     <tr>
       <td class="fontkink">       </td>
-      <td  class="fontkink"> <input type="submit" name="submit2"  value="update"   size="40" style="cursor: pointer;" /> &nbsp;&nbsp;   
+      <td  class="fontkink"> <input type="submit" name="submit2"  value="Update"   size="40" style="cursor: pointer;" /> &nbsp;&nbsp;   
       <input name="Submit2" type="submit" class="txtbox4" value="Close this Window " onClick="return f2();" style="cursor: pointer;"  /></td>
     </tr>
 <?php } ?>

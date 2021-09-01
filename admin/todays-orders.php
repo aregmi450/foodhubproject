@@ -43,7 +43,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 		<div class="container">
 			<div class="row">
 <?php include('include/sidebar.php');?>				
-			<div class="span9">
+			<div class="span10">
 					<div class="content">
 
 	<div class="module">
@@ -65,10 +65,10 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 			<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display table-responsive" >
 									<thead>
 										<tr>
-											<th>#</th>
+											<th width="20px">S.N.</th>
 											<th> Name</th>
-											<th width="50">Email /Contact no</th>
-											<th>Shipping Address</th>
+											<th width="40">Email /Contact no</th>
+											<th width="40">Shipping Address</th>
 											<th>Product </th>
 											<th>Qty </th>
 											<th>Amount </th>

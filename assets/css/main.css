@@ -2,10 +2,10 @@
 /*  GENERAL
 /*===================================================================================*/
 .green-text {
-  color: #abd07e !important;
+  color: #a5750d !important;
 }
 .green-text:hover {
-  background-color: #abd07e !important;
+  background-color: #a5750d !important;
   color: #fff !important;
 }
 .blue-text {
@@ -609,7 +609,7 @@ a {
   background: #0b816a;
 }
 .tag.sale {
-  background: #abd07e;
+  background: #a5750d;
 }
 .copyright-bar .copyright a {
   color: #000000;
@@ -1504,7 +1504,7 @@ a {
 .sidebar .side-menu nav .nav > li > a:hover,
 .sidebar .side-menu nav .nav > li > a:focus {
   background: #fff;
-  border-left: 5px solid #abd07e;
+  border-left: 5px solid #a5750d;
 }
 .sidebar .side-menu nav .nav > li > a:hover .icon,
 .sidebar .side-menu nav .nav > li > a:focus .icon {
@@ -4750,7 +4750,7 @@ a {
 }
 .shopping-cart .shopping-cart-table table tbody tr .romove-item a:hover,
 .shopping-cart .shopping-cart-table table tbody tr .romove-item a:focus {
-  color: #ff000 !important;
+  color: ff000 !important;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
   display: block;

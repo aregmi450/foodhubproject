@@ -17,7 +17,7 @@
                                 <li><a href="category.php"><i class="menu-icon icon-tasks"></i> Create Category </a></li>
                                 <li><a href="insert-product.php"><i class="menu-icon icon-paste"></i>Insert Product </a></li>
                                 <li><a href="manage-products.php"><i class="menu-icon icon-table"></i>Manage Products </a></li>
-								<li><a href="delivered-orders.php"><i class="menu-icon icon-table"></i>Manage Orders </a></li>
+								<li><a href="todays-orders.php"><i class="menu-icon icon-table"></i>Manage Orders </a></li>
 								<li><a href="../blog/blog_login.php"><i class="menu-icon icon-table"></i>Manage Blog </a></li>
                         
                             </ul><!--/.widget-nav-->

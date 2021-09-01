@@ -66,9 +66,9 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display table-responsive" >
 									<thead>
 										<tr>
-											<th>#</th>
+											<th>S.N.</th>
 											<th> Name</th>
-											<th width="50">Email /Contact no</th>
+											<th width="40">Email /Contact no</th>
 											<th>Shipping Address</th>
 											<th>Product </th>
 											<th>Qty </th>
